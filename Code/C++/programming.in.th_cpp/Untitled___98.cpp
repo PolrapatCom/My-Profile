@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
+	long x,sum=0;
+	cin >> x;
+	for(int i=1;i<=x;i++){
+		sum += pow(i,i);
+	}
+	cout << sum;
+}
+//1.1 ????? (Red)
+//1.2 ???????? (Yellow)
+//1.3 ????????? (Blue)
+//1.4 ????? (White)
